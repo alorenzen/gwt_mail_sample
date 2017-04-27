@@ -1,3 +1,4 @@
+import 'package:angular2/angular2.dart';
 import 'package:angular2/core.dart';
 import 'package:angular2_components/src/components/glyph/glyph.dart';
 import 'package:angular2_components/src/components/material_list/material_list.dart';
@@ -15,6 +16,8 @@ const String defaultIconGlyph = 'mail_outline';
     GlyphComponent,
     MaterialListComponent,
     MaterialListItemComponent,
+    NgFor,
+    NgIf,
   ],
 )
 class MailFolder {

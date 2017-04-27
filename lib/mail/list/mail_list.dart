@@ -1,3 +1,4 @@
+import 'package:angular2/angular2.dart';
 import 'package:angular2/core.dart';
 import 'package:angular2_components/src/components/material_ripple/material_ripple.dart';
 
@@ -8,7 +9,7 @@ import 'package:gwt_mail_sample/mail/list/mail_nav_bar.dart';
   selector: 'mail-list',
   styleUrls: const ['mail_list.css'],
   templateUrl: 'mail_list.html',
-  directives: const [MailNavBar, MaterialRippleComponent],
+  directives: const [MailNavBar, MaterialRippleComponent, NgFor],
 )
 class MailList {
   MailService mailService;

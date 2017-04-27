@@ -1,10 +1,11 @@
+import 'package:angular2/angular2.dart';
 import 'package:angular2/core.dart';
 import 'package:angular2_components/src/components/material_checkbox/material_checkbox.dart';
 
 @Component(
   selector: 'task-list',
   templateUrl: 'task_list.html',
-  directives: const [MaterialCheckboxComponent],
+  directives: const [MaterialCheckboxComponent, NgFor],
 )
 class TaskList {
   List<TaskItem> items = [

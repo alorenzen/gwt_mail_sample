@@ -1,3 +1,4 @@
+import 'package:angular2/angular2.dart';
 import 'package:angular2/core.dart';
 import 'package:angular2_components/src/components/material_button/material_button.dart';
 import 'package:angular2_components/src/components/material_dialog/material_dialog.dart';
@@ -12,6 +13,7 @@ import 'package:angular2_components/src/laminate/components/modal/modal.dart';
     MaterialButtonComponent,
     MaterialDialogComponent,
     ModalComponent,
+    NgIf,
   ],
 )
 class AboutDialog {
